@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'appraisal'
-
 # Specify your gem's dependencies in minified_erb.gemspec
 gemspec
+
+gem 'appraisal'
+
+group :tools do
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-rubocop'
+end
