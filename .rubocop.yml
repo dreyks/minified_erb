@@ -1,0 +1,10 @@
+AllCops:
+  DefaultFormatter: Fuubar
+  DisplayCopNames: true
+  TargetRubyVersion: 2.3
+
+Style/Documentation:
+   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
