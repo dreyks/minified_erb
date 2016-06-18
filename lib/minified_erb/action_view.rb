@@ -10,5 +10,5 @@ module MinifiedErb
     end
   end
 
-  ::ActionView::Template::Handlers::ERB.prepend ActionView
+  ::ActionView::Template::Handlers::ERB.send(:prepend, ActionView)
 end

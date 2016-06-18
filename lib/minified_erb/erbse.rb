@@ -19,5 +19,5 @@ module MinifiedErb
     end
   end
 
-  ::Erbse::Basic::Converter.prepend Erbse
+  ::Erbse::Basic::Converter.send(:prepend, Erbse)
 end

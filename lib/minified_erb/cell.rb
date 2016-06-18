@@ -5,5 +5,5 @@ module MinifiedErb
     end
   end
 
-  ::Cell::ViewModel.prepend Cell
+  ::Cell::ViewModel.send(:prepend, Cell)
 end

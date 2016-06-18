@@ -10,5 +10,5 @@ module MinifiedErb
     end
   end
 
-  ::Erubis::Eruby.include Erubis
+  ::Erubis::Eruby.send(:include, Erubis)
 end
