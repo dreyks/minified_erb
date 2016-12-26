@@ -5,3 +5,4 @@ end
 appraise 'rails-5' do
   gem 'actionview', '>= 5.0.0.rc1'
 end
+
