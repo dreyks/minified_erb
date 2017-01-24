@@ -6,7 +6,7 @@ module MinifiedErb
       end
     end
 
-    ::Erbse::Engine.send(:before, ::Erbse::BlockFilter, NewlinesFilter)
+    ::Erbse::Engine.send(:after, ::Erbse::BlockFilter, NewlinesFilter)
   end
 end
 

@@ -1,6 +1,5 @@
 require 'erubis'
 require 'erbse'
-p defined? Erbse::Basic
 require 'minified_erb'
 
 RSpec.shared_examples 'html minifier' do
